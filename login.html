@@ -1,0 +1,123 @@
+<html>
+	<head> 
+		<title> Registration </title>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+		<link rel="stylesheet" type="text/css" href="login.css">
+	</head>
+
+	<body>
+	    <div class = "container">
+			<div class="login-box">
+				<div class="row">
+				    <div class="col-md-6 LogIn-left">
+
+						<h2> LOGIN </h2>
+
+						<form action="login.php" method="post">
+
+							<div class="form-group">
+								
+								<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M2 3a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3zm6 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 11.825 10.623 11 8 11s-4.146.826-5 1.755V13a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/>
+                                </svg>
+								<label> User Name </label><br>
+								<input type="text" name="user" class="form-control"  required>
+							</div>
+
+							<div class="form-group">
+								<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-key-fill" fill="currentColor"xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                </svg>
+
+								<label> Password </label><br>
+								<input type="Password" name="Password" class="form-control" required>								
+							</div>
+
+							<div class="form-group">
+								<label> Remember me </label>
+								<input type="checkbox"  class="" required>									
+							</div>
+
+							<button type="submit" class="button"> LogIn  </button>
+
+							<div> 
+								
+									<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                                    </svg>
+								    <a href="#"> Create an account </a>
+
+							</div>
+
+							<div>
+
+								   <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                   <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                   </svg>
+								  <a href="#" > Forgot your username?  </a>
+							</div>
+
+							<div>
+								  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
+                                  <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+                                  </svg>
+								  <a href="https//:www.google.com"> Forgot your password? </a>
+							</div>
+						</form>
+					</div>
+
+					<div class="col-md-6 login-right">   
+						<h6> User Registration  </h6>
+						<h6> *Request Sent       </h6>
+						<form action="Registration.php" method="post">
+
+							<div class="form-group">
+								<label> Name* </label><br>
+								<input type="text" name="user" class="form-control"  required>
+							</div>
+
+							<div class="form-group">
+								<label> User Name* </label><br>
+								<input type="text" name="user" class="form-control"  required>
+							</div>
+
+							<div class="form-group">
+								<label> Password* </label><br>
+								<input type="Password" name="Password" class="form-control" required>								
+							</div>
+
+							<div class="form-group">
+								<label> Confirm Password* </label><br>
+								<input type="Password" name="Password" class="form-control" required><br>			
+							</div>
+
+							<div class="form-group">
+								<label> Email address* </label><br>
+								<input type="Email" name="Email" class="form-control" required><br>			
+							</div>
+
+							<div class="form-group">
+								<label> Confirm email address*</label><br>
+								<input type="Confirm" name="Email" class="form-control" required><br>			
+							</div>
+
+							<div>
+
+							   <button type="submit" class="button"> Register </button> 
+							   <label> or </label>
+							   <tr> 
+
+							   	  <td> <input type="button" value ="Cancel" name="Cancel"> </td>
+
+							   </tr> 
+
+							</div>
+					    </form>
+				    </div>
+			
+			    </div>
+		    </div>
+		</div>			
+	</body>
+</html>
