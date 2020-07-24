@@ -1,0 +1,46 @@
+body{
+	background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0,0,50,0.5)), url(hot.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+h2{
+	color: black;
+}
+
+h6{
+	color: black;
+}
+
+label{
+
+	color: black;
+}
+
+button{
+	color: white;
+}
+
+.button {background-color:#FFA933;} /* Orange */
+
+.login-box{
+	max-width: 800px;
+	float: none;
+	margin: 100px auto;
+}
+
+.login-left{
+	background: rgba(211, 211, 211, 0.5);
+	padding: 30px;
+}
+
+.login-right{
+	background: #fff;
+	padding: 30px;
+}
+
+.form-control{
+	background-color: transparent !important;
+}
+
